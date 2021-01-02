@@ -1,7 +1,7 @@
 S_ProjectSET
 Version : v 0.14.9
-InputMap : C:\Users\Marsh\Documents\Starcraft\Maps\Directive21-08.scx
-OutputMap : C:\Users\Marsh\Documents\Starcraft\Maps\WW2 - Directive 21.scx
+InputMap : C:\Users\Marsh\Documents\GitHub\Directive21\Directive21\D21-0.9 (Basic File).scx
+OutputMap : C:\Users\Marsh\Documents\GitHub\Directive21\Directive21\Directive21LatestBuild.scx
 euddraftuse : True
 loadfromCHK : True
 UsedSetting0 : True
