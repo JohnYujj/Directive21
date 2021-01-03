@@ -18,12 +18,13 @@ triggerSetTouse : True
 triggerPlayer : 7
 E_ProjectSET
 S_DatEditSET
+0,0,10,-65
+0,0,32,-65
 0,0,37,59
 0,0,39,60
 0,0,40,73
 0,0,48,64
 0,0,51,65
-0,0,54,59
 0,0,61,-180
 0,0,65,-4
 0,0,68,2
@@ -80,10 +81,11 @@ S_DatEditSET
 0,0,190,-132
 0,0,200,-134
 0,0,201,-131
+0,4,10,31
+0,4,32,31
 0,4,37,-56
 0,4,39,-52
 0,4,48,-52
-0,4,54,-56
 0,4,106,-325
 0,4,111,-325
 0,4,112,-327
@@ -108,10 +110,11 @@ S_DatEditSET
 0,4,149,-102
 0,4,151,-104
 0,4,152,-104
+0,5,10,-20
+0,5,32,-20
 0,5,37,22
 0,5,39,18
 0,5,48,18
-0,5,54,22
 0,5,61,-20
 0,6,0,1
 0,6,1,1
@@ -119,22 +122,21 @@ S_DatEditSET
 0,6,3,1
 0,6,5,1
 0,6,7,1
+0,6,10,1
 0,6,12,1
 0,6,16,1
 0,6,17,1
 0,6,19,1
 0,6,20,1
+0,6,32,1
 0,6,34,1
 0,6,37,1
-0,6,38,1
 0,6,39,1
 0,6,40,1
 0,6,46,1
 0,6,48,1
 0,6,51,1
 0,6,52,1
-0,6,53,1
-0,6,54,1
 0,6,70,-1
 0,6,80,-1
 0,6,99,1
@@ -144,22 +146,21 @@ S_DatEditSET
 0,7,2,30
 0,7,3,80
 0,7,5,50
+0,7,10,40
 0,7,12,-40
 0,7,16,1
 0,7,17,30
 0,7,19,80
 0,7,20,4
+0,7,32,40
 0,7,34,8
 0,7,37,3
-0,7,38,80
 0,7,39,4
 0,7,40,1
 0,7,46,120
 0,7,48,5
 0,7,51,1
 0,7,52,120
-0,7,53,30
-0,7,54,3
 0,7,61,-10
 0,7,64,-19
 0,7,65,-78
@@ -182,23 +183,22 @@ S_DatEditSET
 0,8,5,32000
 0,8,7,87040
 0,8,8,-13312
+0,8,10,25600
 0,8,12,38400
 0,8,16,19200
 0,8,17,-17920
 0,8,19,-25600
 0,8,20,48640
 0,8,21,-110080
+0,8,32,48640
 0,8,34,61440
 0,8,37,96000
-0,8,38,40960
 0,8,39,-11520
 0,8,40,87040
 0,8,46,35840
 0,8,48,-102400
 0,8,51,-12800
 0,8,52,-7680
-0,8,53,25600
-0,8,54,66560
 0,8,61,42240
 0,8,64,122880
 0,8,65,74240
@@ -223,20 +223,20 @@ S_DatEditSET
 0,11,2,3
 0,11,3,9
 0,11,7,4
+0,11,10,3
 0,11,16,-17
 0,11,17,3
 0,11,19,1
 0,11,20,-15
 0,11,21,-4
+0,11,32,11
 0,11,37,-3
-0,11,38,6
 0,11,39,-13
 0,11,40,-3
 0,11,46,-5
 0,11,48,-1
 0,11,51,-16
 0,11,52,-8
-0,11,54,-13
 0,11,61,3
 0,11,63,8
 0,11,64,17
@@ -315,17 +315,16 @@ S_DatEditSET
 0,17,64,68
 0,17,67,-30
 0,17,81,-100
+0,18,10,-2
+0,18,32,-2
 0,19,4,-1
 0,19,12,-13
 0,19,18,-1
 0,19,37,-95
-0,19,38,92
 0,19,39,-90
 0,19,40,-88
 0,19,48,-89
 0,19,51,-93
-0,19,53,91
-0,19,54,-94
 0,19,66,64
 0,19,68,60
 0,19,74,-44
@@ -333,21 +332,22 @@ S_DatEditSET
 0,19,78,63
 0,19,79,-61
 0,20,4,-1
+0,20,10,1
+0,20,32,1
 0,22,1,-2097152
 0,22,8,-2097664
+0,22,10,1073676224
 0,22,12,-2097156
 0,22,16,-2097664
 0,22,17,-64
+0,22,32,1073676288
 0,22,37,-1049728
-0,22,38,1072627584
 0,22,39,-67108992
 0,22,40,-128
 0,22,46,1070530432
 0,22,48,-67108992
 0,22,51,-2097792
 0,22,52,1070530368
-0,22,53,1072627520
-0,22,54,-1049728
 0,22,61,1069481984
 0,22,64,49152
 0,22,67,-2097152
@@ -402,22 +402,21 @@ S_DatEditSET
 0,23,5,-2
 0,23,6,-2
 0,23,8,-2
+0,23,10,5
 0,23,12,1
 0,23,16,-1
 0,23,17,1
 0,23,18,1
 0,23,19,3
 0,23,21,-2
+0,23,32,5
 0,23,37,2
-0,23,38,4
 0,23,39,2
 0,23,40,2
 0,23,46,8
 0,23,48,2
 0,23,51,2
 0,23,52,8
-0,23,53,3
-0,23,54,2
 0,23,61,5
 0,23,65,2
 0,23,66,2
@@ -445,13 +444,10 @@ S_DatEditSET
 0,24,19,-1
 0,24,21,2
 0,24,37,2
-0,24,38,1
 0,24,40,2
 0,24,46,-3
 0,24,51,-2
 0,24,52,-3
-0,24,53,-1
-0,24,54,3
 0,24,70,1
 0,24,79,1
 0,24,80,-1
@@ -494,15 +490,12 @@ S_DatEditSET
 0,25,17,-1
 0,25,19,5
 0,25,37,-3
-0,25,38,-3
 0,25,39,-3
 0,25,40,-3
 0,25,46,-3
 0,25,48,-3
 0,25,51,-3
 0,25,52,-3
-0,25,53,-3
-0,25,54,-3
 0,25,61,-5
 0,25,64,-5
 0,25,65,-5
@@ -521,12 +514,10 @@ S_DatEditSET
 0,26,2,1
 0,26,3,-2
 0,26,17,-2
-0,26,38,-1
 0,26,39,-2
 0,26,46,-1
 0,26,48,-2
 0,26,52,-1
-0,26,53,-1
 0,26,81,-2
 0,26,209,-1
 0,27,0,2
@@ -535,20 +526,18 @@ S_DatEditSET
 0,27,5,-2
 0,27,7,2
 0,27,8,100
+0,27,10,-2
 0,27,12,41
 0,27,16,-3
 0,27,17,-2
 0,27,19,2
 0,27,21,96
 0,27,37,2
-0,27,38,1
 0,27,40,1
 0,27,46,1
 0,27,48,-3
 0,27,51,-1
 0,27,52,-1
-0,27,53,-1
-0,27,54,-1
 0,27,65,1
 0,27,66,19
 0,27,67,2
@@ -561,11 +550,26 @@ S_DatEditSET
 0,27,100,-1
 0,27,124,5
 0,27,162,15
+0,29,10,571
+0,29,32,571
+0,30,10,571
+0,30,32,571
+0,31,10,570
+0,31,32,570
+0,32,10,565
+0,32,32,565
+0,33,10,560
+0,33,32,560
+0,34,10,563
+0,34,32,563
+0,35,10,563
+0,35,32,563
+0,36,10,-2
+0,36,32,-2
 0,36,37,-1
 0,36,39,-23
 0,36,40,-4
 0,36,48,-23
-0,36,54,-1
 0,36,61,-3
 0,36,63,-29
 0,36,65,1
@@ -622,11 +626,12 @@ S_DatEditSET
 0,36,190,-128
 0,36,200,-96
 0,36,201,-64
+0,37,10,-5
+0,37,32,-5
 0,37,37,6
 0,37,39,-10
 0,37,40,3
 0,37,48,-10
-0,37,54,6
 0,37,61,-7
 0,37,63,-29
 0,37,65,-3
@@ -683,11 +688,12 @@ S_DatEditSET
 0,37,190,-64
 0,37,200,-64
 0,37,201,-32
+0,40,10,-1
+0,40,32,-1
 0,40,37,-1
 0,40,39,-12
 0,40,40,-2
 0,40,48,-12
-0,40,54,-1
 0,40,61,-2
 0,40,63,-15
 0,40,65,1
@@ -746,11 +752,12 @@ S_DatEditSET
 0,40,190,-79
 0,40,200,-55
 0,40,201,-47
+0,41,10,-3
+0,41,32,3
 0,41,37,6
 0,41,39,-6
 0,41,40,1
 0,41,48,-6
-0,41,54,6
 0,41,61,4
 0,41,63,-15
 0,41,65,5
@@ -808,6 +815,8 @@ S_DatEditSET
 0,41,190,-37
 0,41,200,-27
 0,41,201,-31
+0,42,10,-1
+0,42,32,-1
 0,42,39,-11
 0,42,40,-2
 0,42,48,-11
@@ -868,6 +877,8 @@ S_DatEditSET
 0,42,190,-68
 0,42,200,-62
 0,42,201,-46
+0,43,10,-2
+0,43,32,-2
 0,43,39,-4
 0,43,40,2
 0,43,48,-4
@@ -928,28 +939,29 @@ S_DatEditSET
 0,43,190,-46
 0,43,200,-42
 0,43,201,-30
+0,44,10,35
+0,44,32,19
 0,45,1,25
 0,45,2,600
 0,45,3,300
 0,45,5,950
 0,45,7,150
 0,45,8,650
+0,45,10,380
 0,45,12,1600
 0,45,16,-20
 0,45,17,80
 0,45,19,300
 0,45,20,15
 0,45,21,400
+0,45,32,350
 0,45,37,10
-0,45,38,325
 0,45,39,-170
 0,45,40,39
 0,45,46,570
 0,45,48,-340
 0,45,51,-160
 0,45,52,550
-0,45,53,330
-0,45,54,-40
 0,45,61,235
 0,45,64,-50
 0,45,65,-30
@@ -974,18 +986,18 @@ S_DatEditSET
 0,46,3,-50
 0,46,5,-100
 0,46,8,-100
+0,46,10,-50
 0,46,12,-300
 0,46,16,-150
 0,46,17,-100
 0,46,21,-200
-0,46,38,-25
+0,46,32,-25
 0,46,39,-200
 0,46,40,-1
 0,46,46,-150
 0,46,48,-400
 0,46,51,-300
 0,46,52,-200
-0,46,53,-50
 0,46,61,-100
 0,46,66,-50
 0,46,67,-150
@@ -1001,11 +1013,12 @@ S_DatEditSET
 0,47,2,450
 0,47,3,100
 0,47,5,650
+0,47,10,60
 0,47,12,400
 0,47,17,-800
 0,47,19,-450
 0,47,21,-600
-0,47,38,280
+0,47,32,340
 0,47,46,-50
 0,47,52,-800
 0,47,61,-350
@@ -1018,18 +1031,15 @@ S_DatEditSET
 0,47,80,-1300
 0,47,81,200
 0,47,154,-1400
+0,48,32,36
 0,48,37,-98
-0,48,54,8
 0,49,37,129
-0,49,38,1
 0,49,39,1
 0,49,40,1
 0,49,46,1
 0,49,48,1
 0,49,51,1
 0,49,52,1
-0,49,53,1
-0,49,54,1
 0,49,61,-2
 0,49,64,-2
 0,49,65,-2
@@ -1088,8 +1098,8 @@ S_DatEditSET
 0,51,7,-2
 0,51,8,-4
 0,51,12,-12
+0,51,32,-2
 0,51,37,-1
-0,51,38,-2
 0,51,39,-8
 0,51,46,-4
 0,51,61,-4
@@ -1100,6 +1110,8 @@ S_DatEditSET
 0,51,68,-8
 0,51,70,-6
 0,51,74,-2
+0,52,10,1
+0,52,32,1
 0,54,0,20
 0,54,1,-125
 0,54,2,600
@@ -1107,22 +1119,21 @@ S_DatEditSET
 0,54,5,750
 0,54,7,150
 0,54,8,400
+0,54,10,480
 0,54,12,800
 0,54,16,30
 0,54,17,280
 0,54,19,450
 0,54,20,65
 0,54,21,800
+0,54,32,300
 0,54,37,35
-0,54,38,275
 0,54,39,-620
 0,54,40,40
 0,54,46,395
 0,54,48,60
 0,54,51,40
 0,54,52,600
-0,54,53,480
-0,54,54,60
 0,54,61,35
 0,54,65,-30
 0,54,66,350
@@ -1148,22 +1159,21 @@ S_DatEditSET
 0,55,2,525
 0,55,5,400
 0,55,7,100
+0,55,10,80
 0,55,12,-400
 0,55,16,-670
 0,55,17,-520
 0,55,19,150
 0,55,20,-135
 0,55,21,-800
+0,55,32,200
 0,55,37,10
-0,55,38,50
 0,55,39,-1270
 0,55,40,15
 0,55,46,170
 0,55,48,-2540
 0,55,51,-3960
 0,55,52,-300
-0,55,53,-20
-0,55,54,-40
 0,55,61,-290
 0,55,64,-50
 0,55,65,-130
@@ -1204,12 +1214,12 @@ S_DatEditSET
 1,1,17,8
 1,1,18,-3
 1,1,19,10
+1,1,25,-26
+1,1,26,-26
 1,1,29,9
 1,1,35,143
-1,1,36,149
 1,1,37,143
-1,1,38,-25
-1,1,39,-25
+1,1,39,-22
 1,1,40,143
 1,1,41,143
 1,1,42,143
@@ -1232,10 +1242,7 @@ S_DatEditSET
 1,3,10,1
 1,3,30,-1
 1,3,35,1
-1,3,36,1
 1,3,37,1
-1,3,38,-1
-1,3,39,-1
 1,3,40,1
 1,3,41,1
 1,3,42,1
@@ -1260,12 +1267,12 @@ S_DatEditSET
 1,5,17,-32
 1,5,18,-32
 1,5,19,32
+1,5,25,192
+1,5,26,192
 1,5,30,-32
 1,5,35,145
-1,5,36,161
 1,5,37,145
-1,5,38,96
-1,5,39,64
+1,5,39,16
 1,5,40,135
 1,5,41,103
 1,5,42,158
@@ -1285,11 +1292,11 @@ S_DatEditSET
 1,5,111,209
 1,5,112,-32
 1,5,116,-32
+1,6,25,1
+1,6,26,1
 1,6,35,-3
-1,6,36,-3
 1,6,37,-3
-1,6,38,-3
-1,6,39,-3
+1,6,39,-4
 1,6,40,-3
 1,6,41,-3
 1,6,42,-3
@@ -1318,10 +1325,11 @@ S_DatEditSET
 1,7,17,3
 1,7,18,1
 1,7,19,-2
+1,7,25,1
+1,7,26,1
 1,7,29,3
 1,7,30,2
 1,7,37,-1
-1,7,38,2
 1,7,39,2
 1,7,40,-1
 1,7,41,-1
@@ -1344,11 +1352,11 @@ S_DatEditSET
 1,8,10,1
 1,8,15,2
 1,8,17,2
+1,8,25,-5
+1,8,26,-5
 1,8,29,7
 1,8,35,-3
-1,8,36,-5
 1,8,37,-3
-1,8,38,-2
 1,8,39,-2
 1,8,40,-3
 1,8,41,-3
@@ -1374,6 +1382,8 @@ S_DatEditSET
 1,10,10,1
 1,10,16,1
 1,10,19,1
+1,10,25,-2
+1,10,26,-2
 1,10,29,1
 1,10,30,-13
 1,10,64,1
@@ -1386,8 +1396,10 @@ S_DatEditSET
 1,11,5,5
 1,11,8,5
 1,11,10,5
-1,11,16,15
+1,11,16,10
 1,11,19,10
+1,11,25,-15
+1,11,26,-15
 1,11,29,1
 1,11,30,10
 1,11,54,-19
@@ -1401,8 +1413,10 @@ S_DatEditSET
 1,12,5,10
 1,12,8,20
 1,12,10,20
-1,12,16,20
+1,12,16,15
 1,12,19,15
+1,12,25,-20
+1,12,26,-20
 1,12,29,5
 1,12,30,30
 1,12,54,-35
@@ -1416,8 +1430,10 @@ S_DatEditSET
 1,13,5,15
 1,13,8,40
 1,13,10,40
-1,13,16,25
+1,13,16,20
 1,13,19,25
+1,13,25,-25
+1,13,26,-25
 1,13,29,10
 1,13,30,60
 1,13,54,-45
@@ -1444,13 +1460,13 @@ S_DatEditSET
 1,14,17,-35
 1,14,18,20
 1,14,19,115
+1,14,25,44
+1,14,26,44
 1,14,29,-6
 1,14,30,-140
 1,14,35,8
-1,14,36,4
 1,14,37,-39
-1,14,38,42
-1,14,39,40
+1,14,39,-6
 1,14,40,-9
 1,14,41,-39
 1,14,42,8
@@ -1495,13 +1511,13 @@ S_DatEditSET
 1,16,15,8
 1,16,17,8
 1,16,19,20
+1,16,25,16
+1,16,26,22
 1,16,29,-9
 1,16,30,75
 1,16,35,11
-1,16,36,18
 1,16,37,8
-1,16,38,23
-1,16,39,29
+1,16,39,11
 1,16,40,11
 1,16,41,3
 1,16,42,10
@@ -1544,10 +1560,12 @@ S_DatEditSET
 1,20,5,-20
 1,20,16,-45
 1,20,18,-45
+1,20,25,-20
+1,20,26,-20
 1,20,42,-5
 1,20,100,-15
-1,21,38,-32
-1,21,39,-32
+1,21,25,-32
+1,21,26,-32
 1,21,100,16
 1,21,111,-32
 1,23,1,1
@@ -1562,12 +1580,12 @@ S_DatEditSET
 1,23,17,27
 1,23,18,-5
 1,23,19,-82
+1,23,25,-7
+1,23,26,-7
 1,23,29,24
 1,23,35,-14
-1,23,36,-14
 1,23,37,-14
-1,23,38,-11
-1,23,39,-11
+1,23,39,-15
 1,23,40,-16
 1,23,41,-16
 1,23,42,-17
@@ -1651,7 +1669,7 @@ ProjectMTXMDATACount : 36864
 ProjectMTXMDATAArray : 
 E_TileSET
 S_FileManagerSET
-stattextdicCount : 73
+stattextdicCount : 72
 stattextdickey0 : 228
 stattextdicvalue0 : <6>MP<4>-40<10>Type: Normal<10>Range: 5<10>Cooldown: 16
 stattextdickey1 : 230
@@ -1661,143 +1679,141 @@ stattextdicvalue2 : <6>7.5<4>cm <6>StuK<4>-37 <3>L/24 <4><10>Type: Concussive<10
 stattextdickey3 : 234
 stattextdicvalue3 : <6>8.8<4>cm <6>FlaK<4>-37<10>Type: Penetration<10>Range: 6<10>Cooldown: 42
 stattextdickey4 : 243
-stattextdicvalue4 : <23>250<4>kg <6>Bomb<4><10>Type: Penetration<10>Area:15/20/25<10>Range: 3<10>Cooldown: 30
+stattextdicvalue4 : <23>250<4>kg <6>Bomb<4><10>Type: Penetration<10>Area:10/15/20<10>Range: 3<10>Cooldown: 30
 stattextdickey5 : 242
 stattextdicvalue5 : Aircraft <6>MG<4>-<17>17<10><4>Type: Anti-Air<10>Range: 4<10>Cooldown: 30
-stattextdickey6 : 262
-stattextdicvalue6 : <6>3.7<4>cm<6> PaK<4>-37 <23>L/45<10><4>Type: Normal<10>Range: 7<10>Cooldown: 38
-stattextdickey7 : 235
-stattextdicvalue7 : <6>10.5<4>cm <4>Kanone<10>Type: Normal x2<10>Area: 5/20/40<10>Range: 8<10>Cooldown: 86
-stattextdickey8 : 285
-stattextdicvalue8 : <6>5<4>cm <6>KwK<4>-38 <23>L/42<10><4>Type: Explosive<10>Range: 6<10>Cooldown: 28
-stattextdickey9 : 1239
-stattextdicvalue9 : <6>MG<4>-<4>34<10><4>Type: Concussive<10>Range: 5.5<10>Cooldown: 8
-stattextdickey10 : 286
-stattextdicvalue10 : <6>7.5<4>cm <6>KwK<4>-37 <23>L/24<10><4>Type: Normal<10>Area: 15/25/35<10>Range: 6<10>Cooldown: 30
-stattextdickey11 : 292
-stattextdicvalue11 : Aircraft <6>MG<4>-<17>FF<10><4>Type: Concussive<10>Range: 3<10>Cooldown: 18
-stattextdickey12 : 293
-stattextdicvalue12 : Aircraft <6>MG<4>-<17>FF<10><4>Type: Anti-Air<10>Range: 4<10>Cooldown: 30
-stattextdickey13 : 272
-stattextdicvalue13 : Aircraft <6>20mm<4>-<3>Cannon<10><4>Type: Normal x2<10>Range: 3<10>Cooldown: 30
-stattextdickey14 : 299
-stattextdicvalue14 : <24>Fortress <8>Artillery<10><4>Type: Normal<10>Area: 5/10/20<10>Range: 8<10>Cooldown: 40
-stattextdickey15 : 300
-stattextdicvalue15 : <24>Fortress <8>Artillery<10><4>Type: Anti-Air<10>Range: 8<10>Cooldown: 20
-stattextdickey16 : 308
-stattextdicvalue16 : Entrenched Infantry <4><10>Type: Concussive<10>Range: 5<10>Cooldown: 22
-stattextdickey17 : 256
-stattextdicvalue17 : <21>Stationary <8>Anti-Air<10><4>Type: Anti-Air Disperse<10>Area: 1/5/10<10>Range: 7<10>Cooldown: 6
-stattextdickey18 : 259
-stattextdicvalue18 : <17>vz. 24<4> Rifle<10><4>Type: Normal<10>Range: 4<10>Cooldown: 19
-stattextdickey19 : 231
-stattextdicvalue19 : <3>Mosin-Nagant <6>M1891<2>/30<10><4>Type: Concussive<10>Range: 5<10>Cooldown: 23
-stattextdickey20 : 283
-stattextdicvalue20 : <3>Bolt-Action <4>Rifle<10><4>Type: Concussive<10>Range: 6<10>Cooldown: 26
-stattextdickey21 : 1238
-stattextdicvalue21 : <3>vz.24 <6>Rifle<10><4>Type: Concussive<10>Range: 5<10>Cooldown: 23
-stattextdickey22 : 252
-stattextdicvalue22 : <6>K<3>-98<2>k<10><4>Type: Concussive<10>Range: 5<10>Cooldown: 21
-stattextdickey23 : 289
-stattextdicvalue23 : <6>45<4>mm <3>20K <4>-34<10><4>Type: Normal<10>Range: 6<10>Cooldown: 28
-stattextdickey24 : 290
-stattextdicvalue24 : <6>76<4>mm <3>F-34<10><4>Type: Explosive<10>Range: 6<10>Cooldown: 34
-stattextdickey25 : 238
-stattextdicvalue25 : <6>76<4>mm <3>ZiS-5<10><4>Type: Explosive<10>Range: 6<10>Cooldown: 34
-stattextdickey26 : 294
-stattextdicvalue26 : Aircraft <17>ShKAS<4>-<6>MG <10><4>Type: Concussive<10>Range: 3<10>Cooldown: 18
-stattextdickey27 : 295
-stattextdicvalue27 : Aircraft <17>ShKAS<4>-<6>MG <10><4>Type: Anti-Air<10>Range: 4<10>Cooldown: 30
-stattextdickey28 : 244
-stattextdicvalue28 : Aircraft <17>VYa-23<4> <6>MG <10><4>Type: Anti-Air<10>Range: 4<10>Cooldown: 30
-stattextdickey29 : 245
-stattextdicvalue29 : <23>RS<4>-<6>82<4> Rockets<10>Type: Penetration<10>Range: 4<10>Cooldown: 30
-stattextdickey30 : 263
-stattextdicvalue30 : <6>57<4>mm <6>53<4>-K<10><4>Type: Normal<10>Range: 7<10>Cooldown: 44
-stattextdickey31 : 237
-stattextdicvalue31 : <6>76<4>mm <3>Gun<4><10>Type: Normal x2<10>Area: 5/20/40<10>Range: 8<10>Cooldown: 60
-stattextdickey32 : 236
-stattextdicvalue32 : <6>3.7<4>cm <6>61<4>-K<10>Type: Anti-Air<10>Range: 6<10>Cooldown: 30
-stattextdickey33 : 233
-stattextdicvalue33 : <6>132<4>mm <3>M-13 <4>Rockets<10>Type: Concussive Disperse<10>Area: 5/10/15<10>Range: 7<10>Cooldown: 16
-stattextdickey34 : 260
-stattextdicvalue34 : <3>M96 <4>Rifle<10>Type: Normal<10>Range: 5.5<10>Cooldown: 26
-stattextdickey35 : 261
-stattextdicvalue35 : <17>vz. 24<4> Rifle<10><4>Type: Concussive<10>Range: 5<10>Cooldown: 23
-stattextdickey36 : 1303
-stattextdicvalue36 : Elite Infantry
-stattextdickey37 : 1301
-stattextdicvalue37 : Infantry
-stattextdickey38 : 1307
-stattextdicvalue38 : Medium Tank
-stattextdickey39 : 1308
-stattextdicvalue39 : Howitzer Artillery
-stattextdickey40 : 1309
-stattextdicvalue40 : Heavy Tank
-stattextdickey41 : 1311
-stattextdicvalue41 : Close Air Support
-stattextdickey42 : 1302
-stattextdicvalue42 : Conscript
-stattextdickey43 : 1310
-stattextdicvalue43 : Assault Gun
-stattextdickey44 : 1312
-stattextdicvalue44 : Light Tank
-stattextdickey45 : 1313
-stattextdicvalue45 : Fighter
-stattextdickey46 : 1314
-stattextdicvalue46 : Medium Infantry Tank
-stattextdickey47 : 410
-stattextdicvalue47 : <4>Size: Small
-stattextdickey48 : 411
-stattextdicvalue48 : <4>Size: Large
-stattextdickey49 : 412
-stattextdicvalue49 : <4>Size: Aircraft
-stattextdickey50 : 416
-stattextdicvalue50 : <4>Size: Medium
-stattextdickey51 : 333
-stattextdicvalue51 : <4>Special Forces:<10><28>Shields <2>Regenerate on <21>Lowground
-stattextdickey52 : 229
-stattextdicvalue52 : <3>Mosin-Nagant <6>M1938 <4>Carbine<10>Type: Concussive<10>Range: 5<10>Cooldown: 19
-stattextdickey53 : 1236
-stattextdicvalue53 : <6>15<04>cm <4>Rockets<10>Type: Explosive Disperse<10>Area: 5/10/15<10>Range: 8<10>Cooldown: 10
-stattextdickey54 : 288
-stattextdicvalue54 : <3>Mosin-Nagant <6>M1891<2>/30<4><10><4>Type: Concussive<10>Range: 6<10>Cooldown: 30
-stattextdickey55 : 400
-stattextdicvalue55 : <4>Urban Warfare:<10><28>Shields <2>Regenerate on <5>Cities
-stattextdickey56 : 598
-stattextdicvalue56 : q<0><3>Q: <1>Mobilize Command Unit
-stattextdickey57 : 629
-stattextdicvalue57 : q<1>Setup Head<3>q<1>uarters
-stattextdickey58 : 650
-stattextdicvalue58 : t<1>Build <3>T<1>urret
-stattextdickey59 : 1315
-stattextdicvalue59 : Cavalry
-stattextdickey60 : 265
-stattextdicvalue60 : <17>vz. 24<4> Rifle<10><4>Type: Concussive<10>Range: 4<10>Cooldown: 18
-stattextdickey61 : 1316
-stattextdicvalue61 : Anti-Tank Field Gun
-stattextdickey62 : 1317
-stattextdicvalue62 : Air-Defense Gun
-stattextdickey63 : 1319
-stattextdicvalue63 : Rocket Artillery
-stattextdickey64 : 266
-stattextdicvalue64 : <16>Rigopulos <6>M1941<4> Rifle<10><4>Type: Concussive<10>Range: 5<10>Cooldown: 25
-stattextdickey65 : 279
-stattextdicvalue65 : <16>PIAT <04>Anti-<06>Tank<4><10><4>Type: Explosive<10>Area: 1/5/15<10>Range: 3<10>Cooldown: 44
-stattextdickey66 : 284
-stattextdicvalue66 : <6>4.7<4>cm<6> <4>KPUV <23>vz.38<10><4>Type: Normal<10>Range: 7<10>Cooldown: 42
-stattextdickey67 : 264
-stattextdicvalue67 : <3>Bolt-Action <4>Rifle<10><4>Type: Concussive<10>Range: 5<10>Cooldown: 26
-stattextdickey68 : 282
-stattextdicvalue68 : <6>15<4>cm Rockets<10>Type: Concussive Disperse<10>Area: 5/10/15<10>Range: 7<10>Cooldown: 10
-stattextdickey69 : 277
-stattextdicvalue69 : <6>K<3>-98<2>k<10><4>Type: Concussive<10>Range: 5<10>Cooldown: 23
-stattextdickey70 : 320
-stattextdicvalue70 : <6>310<4>mm <3>Shell<4><10>Type: Normal<10>Area:10/30/60<10>Range: 9<10>Cooldown: 90
-stattextdickey71 : 1321
-stattextdicvalue71 : Super Heavy Artillery
-stattextdickey72 : 246
-stattextdicvalue72 : <6>10.5<4>cm <6>KwK<4>-41 <23>L/70<10><4>Type: Explosive<10>Area: 10/15/25<10>Range: 7<10>Cooldown: 50
+stattextdickey6 : 235
+stattextdicvalue6 : <6>10.5<4>cm <4>Kanone<10>Type: Normal x2<10>Area: 5/20/40<10>Range: 8<10>Cooldown: 86
+stattextdickey7 : 285
+stattextdicvalue7 : <6>5<4>cm <6>KwK<4>-38 <23>L/42<10><4>Type: Explosive<10>Range: 6<10>Cooldown: 28
+stattextdickey8 : 1239
+stattextdicvalue8 : <6>MG<4>-<4>34<10><4>Type: Concussive<10>Range: 5.5<10>Cooldown: 8
+stattextdickey9 : 286
+stattextdicvalue9 : <6>7.5<4>cm <6>KwK<4>-37 <23>L/24<10><4>Type: Normal<10>Area: 15/25/35<10>Range: 6<10>Cooldown: 30
+stattextdickey10 : 292
+stattextdicvalue10 : Aircraft <6>MG<4>-<17>FF<10><4>Type: Concussive<10>Range: 3<10>Cooldown: 18
+stattextdickey11 : 293
+stattextdicvalue11 : Aircraft <6>MG<4>-<17>FF<10><4>Type: Anti-Air<10>Range: 4<10>Cooldown: 30
+stattextdickey12 : 272
+stattextdicvalue12 : Aircraft <6>20mm<4>-<3>Cannon<10><4>Type: Normal x2<10>Range: 3<10>Cooldown: 30
+stattextdickey13 : 299
+stattextdicvalue13 : <24>Fortress <8>Artillery<10><4>Type: Normal<10>Area: 5/10/20<10>Range: 8<10>Cooldown: 40
+stattextdickey14 : 300
+stattextdicvalue14 : <24>Fortress <8>Artillery<10><4>Type: Anti-Air<10>Range: 8<10>Cooldown: 20
+stattextdickey15 : 308
+stattextdicvalue15 : Entrenched Infantry <4><10>Type: Concussive<10>Range: 5<10>Cooldown: 22
+stattextdickey16 : 256
+stattextdicvalue16 : <21>Stationary <8>Anti-Air<10><4>Type: Anti-Air Disperse<10>Area: 1/5/10<10>Range: 7<10>Cooldown: 6
+stattextdickey17 : 259
+stattextdicvalue17 : <17>vz. 24<4> Rifle<10><4>Type: Normal<10>Range: 4<10>Cooldown: 19
+stattextdickey18 : 231
+stattextdicvalue18 : <3>Mosin-Nagant <6>M1891<2>/30<10><4>Type: Concussive<10>Range: 5<10>Cooldown: 23
+stattextdickey19 : 283
+stattextdicvalue19 : <3>Bolt-Action <4>Rifle<10><4>Type: Concussive<10>Range: 6<10>Cooldown: 26
+stattextdickey20 : 1238
+stattextdicvalue20 : <3>vz.24 <6>Rifle<10><4>Type: Concussive<10>Range: 5<10>Cooldown: 23
+stattextdickey21 : 252
+stattextdicvalue21 : <6>3.7<4>cm<6> PaK<4>-37 <23>L/45<10><4>Type: Normal<10>Range: 7<10>Cooldown: 38
+stattextdickey22 : 289
+stattextdicvalue22 : <6>45<4>mm <3>20K <4>-34<10><4>Type: Normal<10>Range: 6<10>Cooldown: 28
+stattextdickey23 : 290
+stattextdicvalue23 : <6>76<4>mm <3>F-34<10><4>Type: Explosive<10>Range: 6<10>Cooldown: 34
+stattextdickey24 : 238
+stattextdicvalue24 : <6>76<4>mm <3>ZiS-5<10><4>Type: Explosive<10>Range: 6<10>Cooldown: 34
+stattextdickey25 : 294
+stattextdicvalue25 : Aircraft <17>ShKAS<4>-<6>MG <10><4>Type: Concussive<10>Range: 3<10>Cooldown: 18
+stattextdickey26 : 295
+stattextdicvalue26 : Aircraft <17>ShKAS<4>-<6>MG <10><4>Type: Anti-Air<10>Range: 4<10>Cooldown: 30
+stattextdickey27 : 244
+stattextdicvalue27 : Aircraft <17>VYa-23<4> <6>MG <10><4>Type: Anti-Air<10>Range: 4<10>Cooldown: 30
+stattextdickey28 : 245
+stattextdicvalue28 : <23>RS<4>-<6>82<4> Rockets<10>Type: Penetration<10>Range: 4<10>Cooldown: 30
+stattextdickey29 : 253
+stattextdicvalue29 : <6>57<4>mm <6>53<4>-K<10><4>Type: Normal<10>Range: 7<10>Cooldown: 44
+stattextdickey30 : 237
+stattextdicvalue30 : <6>76<4>mm <3>Gun<4><10>Type: Normal x2<10>Area: 5/20/40<10>Range: 8<10>Cooldown: 60
+stattextdickey31 : 236
+stattextdicvalue31 : <6>3.7<4>cm <6>61<4>-K<10>Type: Anti-Air<10>Range: 6<10>Cooldown: 30
+stattextdickey32 : 233
+stattextdicvalue32 : <6>132<4>mm <3>M-13 <4>Rockets<10>Type: Concussive Disperse<10>Area: 5/10/15<10>Range: 7<10>Cooldown: 16
+stattextdickey33 : 263
+stattextdicvalue33 : <3>M96 <4>Rifle<10>Type: Normal<10>Range: 5.5<10>Cooldown: 26
+stattextdickey34 : 261
+stattextdicvalue34 : <17>vz. 24<4> Rifle<10><4>Type: Concussive<10>Range: 5<10>Cooldown: 23
+stattextdickey35 : 1303
+stattextdicvalue35 : Elite Infantry
+stattextdickey36 : 1301
+stattextdicvalue36 : Infantry
+stattextdickey37 : 1307
+stattextdicvalue37 : Medium Tank
+stattextdickey38 : 1308
+stattextdicvalue38 : Howitzer Artillery
+stattextdickey39 : 1309
+stattextdicvalue39 : Heavy Tank
+stattextdickey40 : 1311
+stattextdicvalue40 : Close Air Support
+stattextdickey41 : 1302
+stattextdicvalue41 : Conscript
+stattextdickey42 : 1310
+stattextdicvalue42 : Assault Gun
+stattextdickey43 : 1312
+stattextdicvalue43 : Light Tank
+stattextdickey44 : 1313
+stattextdicvalue44 : Fighter
+stattextdickey45 : 1314
+stattextdicvalue45 : Medium Infantry Tank
+stattextdickey46 : 410
+stattextdicvalue46 : <4>Size: Small
+stattextdickey47 : 411
+stattextdicvalue47 : <4>Size: Large
+stattextdickey48 : 412
+stattextdicvalue48 : <4>Size: Aircraft
+stattextdickey49 : 416
+stattextdicvalue49 : <4>Size: Medium
+stattextdickey50 : 333
+stattextdicvalue50 : <4>Special Forces:<10><28>Shields <2>Regenerate on <21>Lowground
+stattextdickey51 : 229
+stattextdicvalue51 : <3>Mosin-Nagant <6>M1938 <4>Carbine<10>Type: Concussive<10>Range: 5<10>Cooldown: 19
+stattextdickey52 : 1236
+stattextdicvalue52 : <6>15<04>cm <4>Rockets<10>Type: Explosive Disperse<10>Area: 5/10/15<10>Range: 8<10>Cooldown: 10
+stattextdickey53 : 288
+stattextdicvalue53 : <3>Mosin-Nagant <6>M1891<2>/30<4><10><4>Type: Concussive<10>Range: 6<10>Cooldown: 30
+stattextdickey54 : 400
+stattextdicvalue54 : <4>Urban Warfare:<10><28>Shields <2>Regenerate on <5>Cities
+stattextdickey55 : 598
+stattextdicvalue55 : q<0><3>Q: <1>Mobilize Command Unit
+stattextdickey56 : 629
+stattextdicvalue56 : q<1>Setup Head<3>q<1>uarters
+stattextdickey57 : 650
+stattextdicvalue57 : t<1>Build <3>T<1>urret
+stattextdickey58 : 1315
+stattextdicvalue58 : Cavalry
+stattextdickey59 : 265
+stattextdicvalue59 : <17>vz. 24<4> Rifle<10><4>Type: Concussive<10>Range: 4<10>Cooldown: 18
+stattextdickey60 : 1316
+stattextdicvalue60 : Anti-Tank Field Gun
+stattextdickey61 : 1317
+stattextdicvalue61 : Air-Defense Gun
+stattextdickey62 : 1319
+stattextdicvalue62 : Rocket Artillery
+stattextdickey63 : 266
+stattextdicvalue63 : <16>Rigopulos <6>M1941<4> Rifle<10><4>Type: Concussive<10>Range: 5<10>Cooldown: 25
+stattextdickey64 : 279
+stattextdicvalue64 : <16>PIAT <04>Anti-<06>Tank<4><10><4>Type: Explosive<10>Area: 1/5/15<10>Range: 3<10>Cooldown: 44
+stattextdickey65 : 284
+stattextdicvalue65 : <6>4.7<4>cm<6> <4>KPUV <23>vz.38<10><4>Type: Normal<10>Range: 7<10>Cooldown: 42
+stattextdickey66 : 264
+stattextdicvalue66 : <3>Bolt-Action <4>Rifle<10><4>Type: Concussive<10>Range: 5<10>Cooldown: 26
+stattextdickey67 : 282
+stattextdicvalue67 : <6>15<4>cm Rockets<10>Type: Concussive Disperse<10>Area: 5/10/15<10>Range: 7<10>Cooldown: 10
+stattextdickey68 : 277
+stattextdicvalue68 : <6>K<3>-98<2>k<10><4>Type: Concussive<10>Range: 5<10>Cooldown: 23
+stattextdickey69 : 320
+stattextdicvalue69 : <6>310<4>mm <3>Shell<4><10>Type: Normal<10>Area:10/30/60<10>Range: 9<10>Cooldown: 90
+stattextdickey70 : 1321
+stattextdicvalue70 : Super Heavy Artillery
+stattextdickey71 : 246
+stattextdicvalue71 : <6>10.5<4>cm <6>KwK<4>-41 <23>L/70<10><4>Type: Explosive<10>Area: 10/15/25<10>Range: 7<10>Cooldown: 50
 wireuse : True
 E_FileManagerSET
 S_TriggerEditorSET
