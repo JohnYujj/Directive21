@@ -247,6 +247,7 @@ S_DatEditSET
 0,11,40,-3
 0,11,46,-5
 0,11,48,-1
+0,11,50,14
 0,11,51,-16
 0,11,52,-8
 0,11,53,-13
@@ -1687,7 +1688,7 @@ ProjectMTXMDATACount : 36864
 ProjectMTXMDATAArray : 
 E_TileSET
 S_FileManagerSET
-stattextdicCount : 78
+stattextdicCount : 79
 stattextdickey0 : 228
 stattextdicvalue0 : <6>MP<4>-40<10>Type: Normal<10>Range: 5<10>Cooldown: 14
 stattextdickey1 : 230
@@ -1844,6 +1845,8 @@ stattextdickey76 : 260
 stattextdicvalue76 : <6>12.8<4>cm <6>KwK<4>-4 <23>L/55<10><4>Type: Explosive<10>Area: 10/30/50<10>Range: 10<10>Cooldown: 46
 stattextdickey77 : 1320
 stattextdicvalue77 : Dancer
+stattextdickey78 : 1322
+stattextdicvalue78 : Military Dog
 wireuse : True
 wireframData2 : 59
 grpwireData2 : 59
@@ -1866,6 +1869,9 @@ tranwireData39 : 16
 wireframData40 : 2
 grpwireData40 : 2
 tranwireData40 : 2
+wireframData50 : 38
+grpwireData50 : 38
+tranwireData50 : 38
 wireframData51 : 2
 grpwireData51 : 2
 tranwireData51 : 2
@@ -1879,7 +1885,7 @@ wireframData61 : 54
 grpwireData61 : 54
 tranwireData61 : 54
 wireframData65 : 68
-grpwireData65 : 68
+grpwireData65 : 63
 tranwireData65 : 68
 wireframData66 : 61
 grpwireData66 : 61
