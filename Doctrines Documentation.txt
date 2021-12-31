@@ -1,0 +1,124 @@
+Unit = Battalion
+4 Unit = Regiment
+12 Unit = Division
+
+Doctrine Level: Upgrades at every mission conclusion
+Mission Bonus (a): Bonus for winning the mission
+
+Germany:
+----Support Companies----
+S. +3 Engineers Immediately
+#1. Integrated Field Hospitals: +1 Medic per 4 of any Infantry Divisions
+1a. +1 Medic per 3 Divisions instead
+#2. Firepower Support: Replace a Schutzen with Grenatwerfer (Mortar) for German Infantry Divisions (Schutzen Divisions)
+2a. Also replace a Schutzen with 2nd MG
+#3. Anti-Tank Support: Add 1 PaK-36 for every 2 Tanks Lost in the Campaign
+3a. Reinforcements of 5x PaK-36
+
+*Mortar is Templar Graphic
+*#3 Applies retroactively and counts tanks lost before acquiring the perk.
+-------------------------
+
+----Mobile Warfare----
+S. Initial Barbarossa Infantry Changed to Panzergrenadiers
+#1. Mobile Infantry: Unlock Panzergrenadier Divisions
+1a. Panzergrenadiers Produce 1 Extra
+#2. Mobile Defense: Tanks gain 2s Hypershields upon Tank Kill
+2a. Hypershields 3s instead
+#3. Elite Gunners: Tank Attack +1 (20% Increase)
+3a. Deploy Prototype Tiger I (1600 value)
+
+*Panzergrenadiers: cost 600 for 10, +20% Attackspeed (Compared to Schutzen), +20% Movespeed, can do moving shot
+*Tiger Prototype is similar to KV1, but more range/damage/armor
+-------------------------
+
+----Combined Arms----
+S. Initial Barbarossa Spawn Changed to 30x Sturmtruppen, 2x StuG III (450 value)
+1. Combined Arms Division: 1300 for 1x Stug III, 12 Sturmtruppen (14% discount)
+1a. +2 Shield Armor
+2. Armored Spearhead: Tank Armor Upgrade +6
+2a. Tank Armor +10 instead
+3. Close Air Support: 1x Stuka Wing (1600 value)
+3a. CAS Damage +50% (72 dmg -> 108)
+
+*CAS has 2 sight range so it requires ground units to attack. Cannot be repaired but regenerates slowly
+-------------------------
+
+--Axis Auxiliaries-- (Guardian=Ghost)
+S.Initial Barbarossa Infantry Changed to 42x Axis Infantry +4x LeFH 18 (440 value)
+1. Extensive Conscription (Axis Infantry Refund Rate 20% -> 25% (Limit 25% -> 33%))
+1a. Refund 28% (Limit 39%)
+2. Artillery Support +1 LeFH 18 per 5 Infantry Divisions
+2a. Per 4 Infantry Divisions
+3. Raise Morale (Axis Infantry Shields Refresh based on kill score)
+3a. Shield Refresh efficiency +33%
+
+--Tactical Battle-- (Arbiter=Firebat)
+S. Initial Barbarossa Infantry Changed to 30x Schutzen, 4x Assault Engineers (420 Value)
+1. Tactical Weapons (Unlock Assault Engineers, Bunkers)
+1a. ???
+2. Air Reconnisance (Unlock Scanner, 50 energy scan)
+2a. ???
+3. Salvaging (50% chance to capture enemy tanks/artillery at 25% hp)
+3a. Captured Equipment starts at 100% hp instead
+
+*Assault Engineers are like the ones from Zita except they deal penetration damage and cost 180
+
+USSR:
+----Reformed Red Army----
+S. Start with 1 Division of Guards (520 Value)
+#1. Field Experience: Gain 'Army Exp' for Infantry losses (equal to cost of unit lost). Every 200 exp upgrades 1 Regulars to Guards
+1a. Army Exp Gain +33% (Cost of upgrade 200 -> 150)
+#2. Standard Tanks: +1 T-34 per 10 Infantry Divisions Produced
+2a. +1 T-34 per 7 Infantry Divisions
+#3. The Red Army is the Strongest: Infantry +1/+1
+3a. Lessons of War (Gain 12000 Army Exp) (60x-80x)
+-------------------------
+
+----Mass Conscription----
+S. Start with 8 Snipers (480 value)
+#1. Service by Requirement: Infantry Divisions +1 Manpower (Conscripts +1 Sniper)
+1a. Reinforce +1 Conscript for Sniper Deaths
+#2. All Adults Serve: 15% of lost infantry value is reinforced as conscripts
+2a. 20% value instead
+#3. Scraping the Barrel: Receive only 40% income, receive conscripts instead at 1.5x efficiency  
+3a. Human Wave Offensive (Up to 150 conscripts convert to Zealots)
+
+*Zealots: 5x2 damage / 8 cooldown, HP same as conscript
+-------------------------
+
+----Mass Production----
+S. Start with 1x T-34 at 1% hp
+1. Expanded Small Arms Production: 1/2 of Regulars in a Division are equipped with PPSh-41
+1a. 2/3 of Regulars Divisions
+2. Improved Welding Process: Tank Armor +4
+2a. Tank Armor +6 Instead
+3. Forced Deployment: Tanks Produce Double, but at 1% hp
+3a. Instant Reinforcements of 4x T-34 at 1%
+
+*PPSh-41: 9/14 dpf -> 28% more dps
+-------------------------
+
+--Defense in Depth-- (Guardian=SCV)
+S. Start with 1x Anti-Tank (420 value)
+1. Tank Defense (Every 5 Infantry comes with 1 Anti-Tank)
+1a. +2 Shield Armor
+2. Battlefield Engineering (Unlock Bunkers, Bunkers Shields)
+2a. Bunker Armor 0 -> 3
+3. Supply Recovery (50% chance to recover lost artillery/tanks at 1hp)
+3a. Spawn 8x Partisans in all Occupied USSR Cities (Upto 6240 value)
+
+*Bunkers are Trenches, 50Minerals for 400 Medium-Type HP, No Armor
+*Bunkers have 200 Shields
+
+
+--Special Weapons-- (Arbiter=Zergling)
+S. Start with 12x Anti-Tank Dog (420 value)
+1. Special Weapons Regiments (Unlock Anti-Tank Dogs)
+1a. Anti-Tank Dog Attack +1 (+20% Increase)
+2. Unlock KV2 Tank
+2a. Deploy free KV2 Tank
+3. Flying Tigers (Spawn 1x Il-2 Wing)
+3a. Il-2 Damage +50%
+
+*KV2 is like KV1 except it deals area damage (Still Explosive Type)
