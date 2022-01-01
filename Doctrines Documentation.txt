@@ -50,10 +50,10 @@ S. Initial Barbarossa Spawn Changed to 30x Sturmtruppen, 2x StuG III (450 value)
 S.Initial Barbarossa Infantry Changed to 42x Axis Infantry +4x LeFH 18 (440 value)
 1. Extensive Conscription: Axis Infantry Refund Rate 20% -> 27% (Limit 25% -> 37%; maximum 10% more efficient)
 1a. Refund 27% -> 30.5% (Limit 37% -> 44%; maximum 15% more efficient)
-2. Salvaging: 50% chance to Capture Tanks, spawning at 10% hp
-2a. Captured Tanks are at 60% hp instead
-3. Raise Morale (Axis Infantry Shield Refresh on kills (80M of value = 1 Frame)
-3a. Shield Efficiency +33% (60M of value = 1 Frame)
+2. German Officers: Axis Infantry Shields Refresh every 0.5s
+2a. Every 0.33s
+3. Salvaging: 50% chance to Capture Desroyed Tanks, spawning at 20% hp
+3a. Reinforcements of 2x T-26, 1x T-34
 
 *Refund Limit Function: (1/(1-x))-1
 -------------------------
@@ -62,7 +62,7 @@ S.Initial Barbarossa Infantry Changed to 42x Axis Infantry +4x LeFH 18 (440 valu
 S. Initial Barbarossa Infantry Changed to 30x Schutzen, 4x Assault Engineers (420 Value)
 1. Tactical Weapons: Enable Bunkers, Assault Engineers, Mines
 1a. Enable Bunker Shields
-2. Adaptive Tactics: Collect "Intel" from kills based on kill score. Every 8000 Intel, upgrade shields +1.
+2. Adaptive Tactics: Gain 1 Mech Armor per Tank Loss (Max 4), Gain 1 Shield Armor Per 20 Infantry Losses (Max 4)
 2a. Every 6000 Intel
 3. First Strike: Infantry Attack +2
 3a. Reinforcements of 3 StuG IIIs
@@ -71,6 +71,7 @@ S. Initial Barbarossa Infantry Changed to 30x Schutzen, 4x Assault Engineers (42
 -------------------------
 
 ----Die Luftwaffe----
+-------------------------
 
 
 USSR:
@@ -113,7 +114,7 @@ S. Start with 1x Anti-Tank (420 value)
 1. Tank Defense (Every 5 Infantry comes with 1 Anti-Tank)
 1a. +2 Shield Armor
 2. Battlefield Engineering (Unlock Bunkers, Mines)
-2a. Bunker Armor 0 -> 3
+2a. 
 3. Supply Recovery (50% chance to recover lost artillery/tanks at 1hp)
 3a. Spawn 8x Partisans in all Occupied USSR Cities (Upto 6240 value)
 
@@ -133,4 +134,5 @@ S. Start with 12x Anti-Tank Dog (420 value)
 *KV2 is like KV1 except it deals area damage (Still Explosive Type)
 
 
-Shock Offensive
+----First Shock Army----
+-------------------------
