@@ -15,7 +15,7 @@ S. +3 Engineers Immediately
 #3. Anti-Tank Support: Add 1 PaK-36 for every 2 Tanks Lost in the Campaign
 3a. Reinforcements of 5x PaK-36
 
-*Mortar is Templar Graphic
+*Mortar is Templar Graphic, Deals Area Damage at 6 Range
 *#3 Applies retroactively and counts tanks lost before acquiring the perk.
 -------------------------
 
@@ -23,8 +23,8 @@ S. +3 Engineers Immediately
 S. Initial Barbarossa Infantry Changed to Panzergrenadiers
 #1. Mobile Infantry: Unlock Panzergrenadier Divisions
 1a. Panzergrenadiers Produce 1 Extra
-#2. Mobile Defense: Tanks gain 2s Hypershields upon Tank Kill
-2a. Hypershields 3s instead
+#2. Mobile Defense: Tanks Shield Refresh on kills (40M of value = 1 Frame)
+2a. Shield Efficiency +33% (30M of value = 1 Frame)
 #3. Elite Gunners: Tank Attack +1 (20% Increase)
 3a. Deploy Prototype Tiger I (1600 value)
 
@@ -34,7 +34,9 @@ S. Initial Barbarossa Infantry Changed to Panzergrenadiers
 
 ----Combined Arms----
 S. Initial Barbarossa Spawn Changed to 30x Sturmtruppen, 2x StuG III (450 value)
-1. Combined Arms Division: 1300 for 1x Stug III, 12 Sturmtruppen (14% discount)
+1. Combined Arms Division: 1250 for 
+(A) 16x Schutzen, 1x Pz3
+(B) 12x Sturmtruppen, 1x Pz4
 1a. +2 Shield Armor
 2. Armored Spearhead: Tank Armor Upgrade +6
 2a. Tank Armor +10 instead
@@ -44,35 +46,42 @@ S. Initial Barbarossa Spawn Changed to 30x Sturmtruppen, 2x StuG III (450 value)
 *CAS has 2 sight range so it requires ground units to attack. Cannot be repaired but regenerates slowly
 -------------------------
 
---Axis Auxiliaries-- (Guardian=Ghost)
+----Axis Auxiliaries----
 S.Initial Barbarossa Infantry Changed to 42x Axis Infantry +4x LeFH 18 (440 value)
-1. Extensive Conscription (Axis Infantry Refund Rate 20% -> 25% (Limit 25% -> 33%))
-1a. Refund 28% (Limit 39%)
-2. Artillery Support +1 LeFH 18 per 5 Infantry Divisions
-2a. Per 4 Infantry Divisions
-3. Raise Morale (Axis Infantry Shields Refresh based on kill score)
-3a. Shield Refresh efficiency +33%
+1. Extensive Conscription: Axis Infantry Refund Rate 20% -> 27% (Limit 25% -> 37%; maximum 10% more efficient)
+1a. Refund 27% -> 30.5% (Limit 37% -> 44%; maximum 15% more efficient)
+2. Salvaging: 50% chance to Capture Tanks, spawning at 10% hp
+2a. Captured Tanks are at 60% hp instead
+3. Raise Morale (Axis Infantry Shield Refresh on kills (80M of value = 1 Frame)
+3a. Shield Efficiency +33% (60M of value = 1 Frame)
 
---Tactical Battle-- (Arbiter=Firebat)
+*Refund Limit Function: (1/(1-x))-1
+-------------------------
+
+----Tactical Battle----
 S. Initial Barbarossa Infantry Changed to 30x Schutzen, 4x Assault Engineers (420 Value)
-1. Tactical Weapons (Unlock Assault Engineers, Bunkers)
-1a. ???
-2. Air Reconnisance (Unlock Scanner, 50 energy scan)
-2a. ???
-3. Salvaging (50% chance to capture enemy tanks/artillery at 25% hp)
-3a. Captured Equipment starts at 100% hp instead
+1. Tactical Weapons: Enable Bunkers, Assault Engineers, Mines
+1a. Enable Bunker Shields
+2. Adaptive Tactics: Collect "Intel" from kills based on kill score. Every 8000 Intel, upgrade shields +1.
+2a. Every 6000 Intel
+3. First Strike: Infantry Attack +2
+3a. Reinforcements of 3 StuG IIIs
 
 *Assault Engineers are like the ones from Zita except they deal penetration damage and cost 180
+-------------------------
+
+----Die Luftwaffe----
+
 
 USSR:
 ----Reformed Red Army----
 S. Start with 1 Division of Guards (520 Value)
 #1. Field Experience: Gain 'Army Exp' for Infantry losses (equal to cost of unit lost). Every 200 exp upgrades 1 Regulars to Guards
 1a. Army Exp Gain +33% (Cost of upgrade 200 -> 150)
-#2. Standard Tanks: +1 T-34 per 10 Infantry Divisions Produced
-2a. +1 T-34 per 7 Infantry Divisions
+#2. Standard Tanks: +1 T-34 per 12 Infantry Divisions Produced
+2a. +1 T-34 per 9 Infantry Divisions
 #3. The Red Army is the Strongest: Infantry +1/+1
-3a. Lessons of War (Gain 12000 Army Exp) (60x-80x)
+3a. Lessons of War (Gain 10000 Army Exp) (60x-80x)
 -------------------------
 
 ----Mass Conscription----
@@ -82,19 +91,19 @@ S. Start with 8 Snipers (480 value)
 #2. All Adults Serve: 15% of lost infantry value is reinforced as conscripts
 2a. 20% value instead
 #3. Scraping the Barrel: Receive only 40% income, receive conscripts instead at 1.5x efficiency  
-3a. Human Wave Offensive (Up to 150 conscripts convert to Zealots)
+3a. Human Wave Offensive (Up to 120 conscripts convert to Zealots)
 
-*Zealots: 5x2 damage / 8 cooldown, HP same as conscript
+*Zealots: 5x2 damage / 8 cooldown, 1.5x HP
 -------------------------
 
 ----Mass Production----
-S. Start with 1x T-34 at 1% hp
+S. Start with 1x T-34 at 20% hp
 1. Expanded Small Arms Production: 1/2 of Regulars in a Division are equipped with PPSh-41
 1a. 2/3 of Regulars Divisions
 2. Improved Welding Process: Tank Armor +4
 2a. Tank Armor +6 Instead
-3. Forced Deployment: Tanks Produce Double, but at 1% hp
-3a. Instant Reinforcements of 4x T-34 at 1%
+3. Forced Deployment: Tanks Produce Double, but at 20% hp
+3a. Instant Reinforcements of 3x T-34 at 20%
 
 *PPSh-41: 9/14 dpf -> 28% more dps
 -------------------------
@@ -103,7 +112,7 @@ S. Start with 1x T-34 at 1% hp
 S. Start with 1x Anti-Tank (420 value)
 1. Tank Defense (Every 5 Infantry comes with 1 Anti-Tank)
 1a. +2 Shield Armor
-2. Battlefield Engineering (Unlock Bunkers, Bunkers Shields)
+2. Battlefield Engineering (Unlock Bunkers, Mines)
 2a. Bunker Armor 0 -> 3
 3. Supply Recovery (50% chance to recover lost artillery/tanks at 1hp)
 3a. Spawn 8x Partisans in all Occupied USSR Cities (Upto 6240 value)
@@ -122,3 +131,6 @@ S. Start with 12x Anti-Tank Dog (420 value)
 3a. Il-2 Damage +50%
 
 *KV2 is like KV1 except it deals area damage (Still Explosive Type)
+
+
+Shock Offensive
