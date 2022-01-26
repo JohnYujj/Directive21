@@ -23,8 +23,8 @@ S. +3 Engineers Immediately
 S. Initial Barbarossa Infantry Changed to Panzergrenadiers
 #1. Mobile Infantry: Unlock Panzergrenadier Divisions
 1a. Panzergrenadiers Produce 1 Extra
-#2. Mobile Defense: Tanks Shield Refresh on kills (40M of value = 1 Frame)
-2a. Shield Efficiency +33% (30M of value = 1 Frame)
+#2. Mobile Defense: Tanks Shields Refresh every 40M of Kills
+2a. Shield Efficiency +33% (30M)
 #3. Elite Gunners: Tank Attack +1 (20% Increase)
 3a. Deploy Prototype Tiger I (1600 value)
 
@@ -47,30 +47,29 @@ S. Initial Barbarossa Spawn Changed to 30x Sturmtruppen, 2x StuG III (450 value)
 -------------------------
 
 ----Axis Auxiliaries----
-S.Initial Barbarossa Infantry Changed to 42x Axis Infantry +4x LeFH 18 (440 value)
+S. Initial Barbarossa Infantry Changed to 52x Axis Infantry (280 value)
 1. Extensive Conscription: Axis Infantry Refund Rate 20% -> 27% (Limit 25% -> 37%; maximum 10% more efficient)
 1a. Refund 27% -> 30.5% (Limit 37% -> 44%; maximum 15% more efficient)
-2. German Officers: Axis Infantry Shields Refresh every 0.5s
-2a. Every 0.33s
-3. Salvaging: 50% chance to Capture Desroyed Tanks, spawning at 20% hp
-3a. Reinforcements of 2x T-26, 1x T-34
+2. Salvaging: Gain 'Salvage Points' for USSR Equipment Losses. Create 1 'Varied Tank Regiment' for every 4000/7200/9600 (Based on Player Count) Salvage Points . 
+2a. Salvage Equipment Efficiency +33%
+3. German Officers: Axis Infantry +2 Attack
+3a. Compliance: Gain 6x Axis Infantry in each occupied city in Yugoslavia/Greece/Baltics (Up to 72x)
 
 *Refund Limit Function: (1/(1-x))-1
+*Varied Tank Regiment has high Damage and HP, but low Movement/Attack Speed
 -------------------------
 
 ----Tactical Battle----
 S. Initial Barbarossa Infantry Changed to 30x Schutzen, 4x Assault Engineers (420 Value)
-1. Tactical Weapons: Enable Bunkers, Assault Engineers, Mines
-1a. Enable Bunker Shields
-2. Adaptive Tactics: Gain 1 Mech Armor per Tank Loss (Max 4), Gain 1 Shield Armor Per 20 Infantry Losses (Max 4)
-2a. Every 6000 Intel
-3. First Strike: Infantry Attack +2
-3a. Reinforcements of 3 StuG IIIs
+1. Tactical Weapons: Enable Bunkers, Assault Engineers (Bunker Limit 8, Assault Engineer Limit 10)
+1a. Also Enable Scanner (100 energy scan)
+2. Battleplan: For Each 40s where you did not suffer any losses, gain 1 Shield Armor. For each 400M of losses, lose 1 Shield Armor. Maximum Bonus 8 (Total 10)
+2a. Planning Speed +33% (each 30s)
+3. Adaptive Tactics: Infantry Shields Refresh every 40M of Kills
+3a. Reveal All Enemies for 5 minutes.
 
 *Assault Engineers are like the ones from Zita except they deal penetration damage and cost 180
--------------------------
-
-----Die Luftwaffe----
+*Battleplan will not reduce shields below base amount of 2, and limit is on top of base amount so max shields is 8/10.
 -------------------------
 
 
@@ -106,33 +105,37 @@ S. Start with 1x T-34 at 20% hp
 3. Forced Deployment: Tanks Produce Double, but at 20% hp
 3a. Instant Reinforcements of 3x T-34 at 20%
 
-*PPSh-41: 9/14 dpf -> 28% more dps
+*PPSh-41: 9/14 dpf -> 28% more dps (Actually 25% since all German Infantry has 2 Armor)
 -------------------------
 
---Defense in Depth-- (Guardian=SCV)
+----Defense in Depth----
 S. Start with 1x Anti-Tank (420 value)
-1. Tank Defense (Every 5 Infantry comes with 1 Anti-Tank)
-1a. +2 Shield Armor
-2. Battlefield Engineering (Unlock Bunkers, Mines)
-2a. 
-3. Supply Recovery (50% chance to recover lost artillery/tanks at 1hp)
+1. Tank Defense (Every 6 Infantry comes with 1 Anti-Tank)
+1a. Every 5 Infantry
+2. Battlefield Engineering: Enable Bunkers, Refund Rate for Bunkers 20% -> 50%, Bunker Limit 16
+2a. Enable Bunker Shields
+3. Deep Defense: For every 400M of units lost, gain 1 Shield Armor. Lose 1 Shield Armor for every 20s where lose less than 400M of units.
 3a. Spawn 8x Partisans in all Occupied USSR Cities (Upto 6240 value)
+-------------------------
 
-*Bunkers are Trenches, 50Minerals for 400 Medium-Type HP, No Armor
-*Bunkers have 200 Shields
-
-
---Special Weapons-- (Arbiter=Zergling)
+----Special Weapons----
 S. Start with 12x Anti-Tank Dog (420 value)
-1. Special Weapons Regiments (Unlock Anti-Tank Dogs)
+1. Anti-Tank Dog Regiments (Unlock Anti-Tank Dogs)
 1a. Anti-Tank Dog Attack +1 (+20% Increase)
 2. Unlock KV2 Tank
 2a. Deploy free KV2 Tank
-3. Flying Tigers (Spawn 1x Il-2 Wing)
+3. Flying Tigers: Deploy Il-2 Wing
 3a. Il-2 Damage +50%
 
 *KV2 is like KV1 except it deals area damage (Still Explosive Type)
-
+-------------------------
 
 ----First Shock Army----
+S. Start with 1x Katyusha
+1. Unlock Shock Division: 1250 = (12x Shock Troops + 1x Katyusha)
+1a. Shields +2
+2. Infantry Shields Refresh on kills (80M value killed = 1 frame shield refresh)
+2a.
+3.
+3a.
 -------------------------
